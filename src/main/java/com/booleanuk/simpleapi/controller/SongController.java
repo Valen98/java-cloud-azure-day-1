@@ -22,7 +22,7 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("songs")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin
 public class SongController {
     @Autowired
     SongRepository repository;
